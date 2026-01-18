@@ -40,9 +40,9 @@ layers:
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&msc MOVE_X(20)'
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -51,7 +51,7 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - Gui+←
-  - Gui+→
+  - Gui+↑
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -83,9 +83,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
-  - Gui+W
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&msc MOVE_X(20)'
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
