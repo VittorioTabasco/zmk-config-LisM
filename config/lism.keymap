@@ -51,10 +51,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q      &kp W       &kp E             &kp R       &kp T                                                 &kp Y        &kp U       &kp I         &kp O       &kp P
-&kp A      &mt LALT S  &mt LSHIFT D      &mt LGUI F  &mt LCTRL G                                           &mt RCTRL H  &mt RGUI J  &mt RSHIFT K  &mt RALT L  &kp MINUS
-&kp Z      &kp X       &kp C             &kp V       &kp B                                                 &kp N        &kp M       &kp COMMA     &kp DOT     &kp ENTER
-&lt 1 ESC  &lt 2 TAB   &lt 3 KP_NUMLOCK  &none       &lt 4 QUESTION  &lt 5 EXCLAMATION    &lt 5 BACKSPACE  &lt 4 SPACE  &none       &mkp MB1      &mkp MB2    &msc MOVE_X(10)
+&kp Q      &kp W       &kp E         &kp R       &kp T                                                 &kp Y        &kp U       &kp I         &kp O       &kp P
+&kp A      &mt LALT S  &mt LSHIFT D  &mt LGUI F  &mt LCTRL G                                           &mt RCTRL H  &mt RGUI J  &mt RSHIFT K  &mt RALT L  &kp MINUS
+&kp Z      &kp X       &kp C         &kp V       &kp B                                                 &kp N        &kp M       &kp COMMA     &kp DOT     &kp ENTER
+&lt 1 ESC  &lt 2 TAB   &lt 3 F16     &none       &lt 4 QUESTION  &lt 5 EXCLAMATION    &lt 5 BACKSPACE  &lt 4 SPACE  &none       &mkp MB1      &mkp MB2    &msc MOVE_X(10)
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
