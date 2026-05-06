@@ -63,19 +63,19 @@
         layer_1 {
             display-name = "Mark Layer";
             bindings = <
-&kp HASH          &kp PERCENT           &kp LA(Z)             &kp LA(X)         &kp AT                               &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp EQUAL        &kp LS(N8)
-&kp SLASH         &kp SINGLE_QUOTE      &kp BACKSLASH         &kp GRAVE         &kp RIGHT_BRACKET                    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMI   &kp RA(SEMI)     &kp TILDE
-&kp LEFT_BRACKET  &kp LA(LEFT_BRACKET)  &kp LS(LEFT_BRACKET)  &kp LA(NUMBER_4)  &kp LA(Q)                            &kp LPAR          &kp RPAR           &kp COLON  &kp EXCLAMATION  &kp QUESTION
-&trans            &trans                &trans                &trans            &trans             &trans    &trans  &trans            &trans             &none      &trans           &none
+&kp HASH          &kp PERCENT           &kp LA(Z)             &kp LA(X)         &kp AT                               &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LA(SLASH)  &kp EQUAL        &kp LS(N8)
+&kp SLASH         &kp SINGLE_QUOTE      &kp BACKSLASH         &kp GRAVE         &kp RIGHT_BRACKET                    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMI       &kp RA(SEMI)     &kp TILDE
+&kp LEFT_BRACKET  &kp LA(LEFT_BRACKET)  &kp LS(LEFT_BRACKET)  &kp LA(NUMBER_4)  &kp LA(Q)                            &kp LPAR          &kp RPAR           &kp COLON      &kp EXCLAMATION  &kp QUESTION
+&trans            &trans                &trans                &trans            &trans             &trans    &trans  &trans            &trans             &none          &trans           &none
             >;
         };
 
         layer_2 {
             display-name = "Mouse Layer";
             bindings = <
-&kp INT_YEN   &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1             &kp F2     &kp F4    &kp F5     &kp F11
+&kp LA(Y)     &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1             &kp F2     &kp F4    &kp F5     &kp F11
 &kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &kp LA(LG(CARET))  &kp LEFT   &kp UP    &kp RIGHT  &none
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &kp LA(LC(MINUS))  &mkp LCLK  &kp DOWN  &mkp RCLK  &kp ENTER
+&kp INT_YEN   &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &kp LA(LC(MINUS))  &mkp LCLK  &kp DOWN  &mkp RCLK  &kp ENTER
 &kp DOT       &kp COMMA          &kp NUMBER_0         &trans             &none            &trans    &trans  &none              &none      &none     &none      &kp F12
             >;
 
