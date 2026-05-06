@@ -113,9 +113,9 @@ layers:
   - '3'
   - +
   - Alt+Ctl+-
-  - '&mkp LCLK'
+  - '&mkp MB1'
   - ↓
-  - '&mkp RCLK'
+  - '&mkp MB2'
   - ENTER
   - .
   - ','
@@ -128,7 +128,7 @@ layers:
   - ''
   - ''
   - ''
-  - F12
+  - ''
   Device Layer:
   - ''
   - ''
