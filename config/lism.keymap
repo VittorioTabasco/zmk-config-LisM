@@ -66,7 +66,7 @@
 &kp HASH          &kp PERCENT           &kp LA(Z)             &kp LA(X)         &kp AT                               &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LA(SLASH)  &kp EQUAL        &kp LS(N8)
 &kp SLASH         &kp SINGLE_QUOTE      &kp BACKSLASH         &kp GRAVE         &kp RIGHT_BRACKET                    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMI       &kp RA(SEMI)     &kp TILDE
 &kp LEFT_BRACKET  &kp LA(LEFT_BRACKET)  &kp LS(LEFT_BRACKET)  &kp LA(NUMBER_4)  &kp LA(Q)                            &kp LPAR          &kp RPAR           &kp COLON      &kp EXCLAMATION  &kp QUESTION
-&trans            &trans                &trans                &trans            &trans             &trans    &trans  &trans            &trans             &none          &trans           &none
+&kp ESC           &kp TAB               &trans                &trans            &trans             &trans    &trans  &trans            &trans             &none          &trans           &none
             >;
         };
 
